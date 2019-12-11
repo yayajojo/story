@@ -1,1 +1,11 @@
-ECHO ¤w±Ò°Ê¡C
+it is interesting to learn programming.
+[git init]
+[git status]-not yet
+[git add] -stage-ready to be commited
+[git add .]-stage all files in the dir
+[git restore --staged]--unstage file
+[git commit -m"msg"] -commit -add message to the change to be commited(present tense:msg)
+[git log]-show the record of committed change
+[git diff]-show differences between the file commited and file not yet commited
+[git checkout] roll back to the previous version
+
