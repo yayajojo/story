@@ -13,4 +13,19 @@ it is interesting to learn programming.
 [git remote add origin https://github.com/yayajojo/story.git]-create a remote repository
 [git push -u origin master]
 [git remote remove origin]-remove remote orgin
+----secret file not for sending to remote repository
+.gitignore note
+[git rm --cached -r]--for unstage
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+the content of .gitignore.txt
+1.secret.txt-the exact file not to be dealt by git
+2.*.py the exact file__with extension of .py not to be dealt by git
+3. # comment 
 

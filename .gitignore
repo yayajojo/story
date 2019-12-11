@@ -1,0 +1,5 @@
+secret.txt
+*.py
+
+
+#for comment-not not commit secret.txt and __with extension of .py 
