@@ -1,11 +1,16 @@
 it is interesting to learn programming.
 [git init]
 [git status]-not yet
-[git add] -stage-ready to be commited
+[git add +file_name] -stage-ready to be commited
 [git add .]-stage all files in the dir
-[git restore --staged]--unstage file
-[git commit -m"msg"] -commit -add message to the change to be commited(present tense:msg)
+[git restore --staged+file_name]--unstage file
+[git restore +file_name]--discrad change in the working directory
+[git commit +file_name -m"msg"] -commit -add message to the change to be commited(present tense:msg)
 [git log]-show the record of committed change
-[git diff]-show differences between the file commited and file not yet commited
-[git checkout] roll back to the previous version
+[git diff +file_name]-show differences between the file commited and file not yet commited
+[git checkout +file_name] roll back to the previous version
+------------------------push to the remote repository on github-----------------
+[git remote add origin https://github.com/yayajojo/story.git]-create a remote repository
+[git push -u origin master]
+[git remote remove origin]-remove remote orgin
 
