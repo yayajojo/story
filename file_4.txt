@@ -1,1 +1,1 @@
-ECHO ¤w±Ò°Ê¡C
+git barnch for git branch anotherstory; git checkout anotherstory
