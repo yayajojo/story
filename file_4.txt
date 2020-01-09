@@ -1,1 +1,1 @@
-git barnch for git branch anotherstory; git checkout anotherstory
+git barnch for git branch anotherstory; git checkout anotherstory.
