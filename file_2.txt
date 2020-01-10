@@ -1,3 +1,3 @@
-ECHO ¤w±Ò°Ê¡C
+this is a branch merge example
 1111111
 222222222222
